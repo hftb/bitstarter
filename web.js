@@ -1,7 +1,7 @@
 var express = require('express');
 var fs = require('fs');
 
-var buffer = fs.readFile('index.html');
+var buffer = fs.readFileSync('index.html');
 
 var bufferStr = buffer.toString();
 
